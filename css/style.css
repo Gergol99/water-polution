@@ -1,3 +1,26 @@
+body{
+    background-color: #FFFFF2;
+    font-family: 'Varela Round', sans-serif;
+}
+
+h1{
+    color: #337CA0;
+}
+
+p{
+    color: #042A2B;
+    font-size: 110%;
+}
+
 a{
     text-decoration: none;
+    color: #FF7477;
+}
+
+a:hover{
+    color: #337CA0;
+}
+
+a:active{
+    color: #B8E2C8;
 }
