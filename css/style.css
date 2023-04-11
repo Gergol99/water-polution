@@ -1,21 +1,30 @@
 body{
-    background-color: #FFFFF2;
+    background-color: #C1C9D9;
     font-family: 'IBM Plex Sans', sans-serif;
+    background-image: url(../kepek/190715_Plastic-item-floating-in-GPGP.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main{
+    background-color: #C1C9D9D9;
+    overflow: hidden;
 }
 
 h1{
-    color: #337CA0;
-    border-bottom: 5px solid #337CA0;
+    color: #022859;
+    border-bottom: 5px solid #022859;
 }
 
 p{
-    color: #011627;
+    color: #011126;
     font-size: 110%;
 }
 
 a{
     text-decoration: none;
-    color: #F71735;
+    color: #023373;
 }
 
 a:hover{
@@ -27,12 +36,11 @@ a:active{
 }
 
 nav{
-    box-shadow: 0 2px 4px #7eb0a8;
-    background-color: #3486C2;
+    background-color: #033E8C;
 }
 
 .nav-link{
-    color: #011627;
+    color: #C1C9D9;
     font-size: 120%;
 }
 
@@ -44,3 +52,25 @@ nav{
     color: #FFFFF2;
 }
 
+
+.img-popover:hover{
+    position: relative;
+}
+
+/*Class for popover images*/
+.img-popover:hover::after{
+    content: "";
+    background-size: cover;
+    display: block;
+    position: absolute;
+    border: 1px solid #C1C9D9;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px #011126;
+}
+/*Ids for specifying the img's sizes and paths*/
+#system002:hover::after{
+    contain: "";
+    background-image: url(../kepek/Tender-Inspection-Flight-24.08.2021-pre-meetings-3.jpg);
+    width: 400px;
+    height: 225px;
+}
