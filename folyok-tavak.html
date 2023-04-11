@@ -1,146 +1,182 @@
 <!DOCTYPE html>
-<html lang="hu">
-
-<head>
+<html lang="en">
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Folyók/Tavak</title>
     <!--Bootstrap 5.2.3 css install-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
 
     <link rel="stylesheet" href="css/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet" />
-</head>
-
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="sticky-top">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid ms-lg-5">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link" href="index.html">Főoldal</a>
-                        <a class="nav-link nav-link-active" aria-current="page" href="folyok-tavak.html">Folyók/tavak</a>
-                        <a class="nav-link" href="tengerek-oceanok.html">Tengerek/oceánok</a>
-                        <a class="nav-link" href="szemetsziget.html">Szemétsziget</a>
-                        <a class="nav-link" href="inventions_and_movements.html">Találmányok/mozgalmak</a>
-                    </div>
-                </div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid ms-lg-5">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link">Főoldal</a>
+              <a
+                class="nav-link nav-link-active"
+                aria-current="page"
+                href="folyok-tavak.html"
+                >Folyók/tavak</a
+              >
+              <a class="nav-link" href="tengerek-oceanok.html">Tengerek/oceánok</a>
+              <a class="nav-link" href="#">Szemétsziget</a>
+              <a class="nav-link" href="inventions_and_movements.html"
+                >Találmányok/mozgalmak</a
+              >
             </div>
-        </nav>
+          </div>
+        </div>
+      </nav>
     </header>
     <main class="container">
-        <div>
-            <img src="kepek/műanyag.jpg" alt="muanyag" id="muanyag" height="300px" width="100%" />
-            <h1 class="display-3 text-center pt-4 pb-1">
-                Alig van a világon olyan folyó illetve tó, amelyet nem szennyeztünk
-                el.
-            </h1>
-            <p>
-                A világ vízgyűjtő területének mindössze 14%-át teszik ki azok a
-                folyók, melyekben az élővilág, elsőrendűen a halak populációja nem
-                szenvedett súlyos károkat.
-            </p>
-
-            <p>
-                A folyók és tavak létfontosságú ökoszisztémák, melyek ugyan csak a
-                bolygó 1%-át borítják, de az összes gerinces negyede, és nagyjából 17
-                ezer halfaj otthona, ráadásul emberek milliói számára biztosít
-                táplálékot.
-            </p>
-            <p>
-                Az eddigi legátfogóbb tanulmányból az is kiderül, hogy a legsúlyosabb
-                problémákat a szennyezés mellett az invazív fajok betelepítése, a
-                túlhalászás és a vizek szabályozása, gátak építése jelenti, azonban
-                egyre nagyobb jelentőségre tesz szert a klímaváltozás hatása is.
-            </p>
-        </div>
-
+      <div>
+        <img
+          src="kepek/műanyag.jpg"
+          alt="muanyag"
+          id="muanyag"
+          class="pt-2 "
+        />
+        <h1 class="display-3 text-center pt-4 pb-1">
+          Alig van a világon olyan folyó illetve tó, amelyet nem szennyeztünk
+          el.
+        </h1>
         <p>
-            <a href="https://www.science.org/doi/10.1126/science.abd3369" target="_blank">
-                <strong> A Science folyóiratban megjelent kutatás</strong></a>
-            közel 2500 folyót vizsgált a világ minden tájáról, és kiemelten kezelte
-            a fajok ökológiai szerepét, és az elmúlt 200 évben a biodiverzitás
-            helyzetében lezajlott változásokat.
-        </p>
-        <img src="kepek/Nyasza tó.jpg" alt="nyaszato" height="150px" class="float-start rounded me-2" />
-        <p>
-            A tanulmány megállapításai szerint a legrosszabb helyzetben a
-            nyugat-európai és az észak-amerikai folyók vannak. Kontinensünkön
-            például 93%-kal csökkent a vándorló folyami halak populációja 1970 óta.
+          A világ vízgyűjtő területének mindössze 14%-át teszik ki azok a
+          folyók, melyekben az élővilág, elsőrendűen a halak populációja nem
+          szenvedett súlyos károkat.
         </p>
 
         <p>
-            A kutatást vezető Sébastien Brosse szerint vannak ugyan biztató
-            változások, az elmúlt évtizedekben Európában például javult a
-            vízminőség, de a változás sebessége úgy tűnik nem elégséges, hogy
-            megállítsa a halállomány gyérülését.
+          A folyók és tavak létfontosságú ökoszisztémák, melyek ugyan csak a
+          bolygó 1%-át borítják, de az összes gerinces negyede, és nagyjából 17
+          ezer halfaj otthona, ráadásul emberek milliói számára biztosít
+          táplálékot.
         </p>
-        <div>
-            <h1>A vízalatti életet fenyegető komoly veszélyek</h1>
+        <p>
+          Az eddigi legátfogóbb tanulmányból az is kiderül, hogy a legsúlyosabb
+          problémákat a szennyezés mellett az invazív fajok betelepítése, a
+          túlhalászás és a vizek szabályozása, gátak építése jelenti, azonban
+          egyre nagyobb jelentőségre tesz szert a klímaváltozás hatása is.
+        </p>
+      </div>
 
-            <img src="kepek/images.jpg" alt="föld" height="150px" class="float-end ms-2 rounded" />
+      <p>
+        <a
+          href="https://www.science.org/doi/10.1126/science.abd3369"
+          target="_blank"
+        >
+          <strong> A Science folyóiratban megjelent kutatás</strong></a
+        >
+        közel 2500 folyót vizsgált a világ minden tájáról, és kiemelten kezelte
+        a fajok ökológiai szerepét, és az elmúlt 200 évben a biodiverzitás
+        helyzetében lezajlott változásokat.
+      </p>
+      <img
+        src="kepek/Nyasza tó.jpg"
+        alt="nyaszato"
+        height="150px"
+        class="float-start rounded me-2"
+      />
+      <p>
+        A tanulmány megállapításai szerint a legrosszabb helyzetben a
+        nyugat-európai és az észak-amerikai folyók vannak. Kontinensünkön
+        például 93%-kal csökkent a vándorló folyami halak populációja 1970 óta.
+      </p>
 
-            <p>
-                Az ember évszázadok óta alakítja az európai víztesteket, hogy
-                élelmiszert állítson elő, energiát termeljen és gondoskodjék az
-                árvizek elleni védelemről. E tevékenységek fontos szerepet játszanak
-                Európa gazdasági és társadalmi fejlődésében, ugyanakkor károsan hatnak
-                a vízminőségre, illetve a halak és más vízi élőlények természetes
-                élőhelyeire, különösen a folyókban. Sok esetben sajnálatosan a víznek
-                jut az a feladat, hogy az ember által a levegőbe, talajba és vízbe
-                kibocsátott szennyezést szállítsa, néha pedig maga a víz az emberi
-                hulladék és vegyszerek végállomása.
-            </p>
+      <p>
+        A kutatást vezető Sébastien Brosse szerint vannak ugyan biztató
+        változások, az elmúlt évtizedekben Európában például javult a
+        vízminőség, de a változás sebessége úgy tűnik nem elégséges, hogy
+        megállítsa a halállomány gyérülését.
+      </p>
+      <div>
+        <h1>A vízalatti életet fenyegető komoly veszélyek</h1>
 
-            <p>
-                Röviden szólva tehát az ember meglehetősen hatékonyan használja ki a
-                víz előnyeit, ennek azonban a természeti környezet és a gazdaság
-                fizeti meg az árát. Számos vízi ökoszisztémát és fajt fenyeget
-                veszély: sok halpopulációnak csökken az egyedszáma, túl sok vagy túl
-                kevés üledék jut el a tengerig, fokozódik a tengerparti erózió, és így
-                tovább. Mindezek a változások végül kihatnak majd azokra a látszólag
-                ingyenes szolgáltatásokra is, amelyeket a víztestek jelenleg az
-                embernek nyújtanak.
-            </p>
-            <h1>Mik a vízszennyezés okai?</h1>
-            <img src="kepek/vizszennyezes-11.jpg" alt="vizszennyezés" height="240px" class="float-start rounded me-2">
-            <p>
-                A szennyeződés többféle módon kerülhet a vizekbe. A statisztikák
-                szerint a szennyvizek csaknem fele ipari tevékenység nyomán jön létre,
-                amikor szerves és szervetlen vegyipari termékek kerülnek a természetes
-                közegbe. Ide sorolandók például a hűtővizek, a technológiai használt
-                vizek, az üzemi szociális szennyvizek, valamint az üzem területéről
-                elvezetett csapadékvíz is.
-            </p>
+        <img
+          src="kepek/images.jpg"
+          alt="föld"
+          height="150px"
+          class="float-end ms-2 rounded"
+        />
 
-            <p>
-                Emellett 25%-ban a <a
-                    href="https://kockazatos.hu/hir/felsz%C3%ADni-vizeink-mez%C5%91gazdas%C3%A1gi-eredet%C5%B1-szennyezetts%C3%A9ge"
-                    target="blank"><strong>mezőgazdaság felelős</strong></a> a vízszennyezésért, főleg a
-                különböző műtrágyák, növényvédő szerek használata miatt, de iparszerű
-                állattartás eredményeként a hígtrágya szennyezés mértéke is igen
-                magas. Mindezeken felül természetesen a háztartások is igen komoly
-                mértékű vízszennyezést okoznak és bár minimális, de szerepe van
-                mindebben a közlekedésnek, valamint a turizmusnak is.
-            </p>
-        </div>
+        <p>
+          Az ember évszázadok óta alakítja az európai víztesteket, hogy
+          élelmiszert állítson elő, energiát termeljen és gondoskodjék az
+          árvizek elleni védelemről. E tevékenységek fontos szerepet játszanak
+          Európa gazdasági és társadalmi fejlődésében, ugyanakkor károsan hatnak
+          a vízminőségre, illetve a halak és más vízi élőlények természetes
+          élőhelyeire, különösen a folyókban. Sok esetben sajnálatosan a víznek
+          jut az a feladat, hogy az ember által a levegőbe, talajba és vízbe
+          kibocsátott szennyezést szállítsa, néha pedig maga a víz az emberi
+          hulladék és vegyszerek végállomása.
+        </p>
+
+        <p>
+          Röviden szólva tehát az ember meglehetősen hatékonyan használja ki a
+          víz előnyeit, ennek azonban a természeti környezet és a gazdaság
+          fizeti meg az árát. Számos vízi ökoszisztémát és fajt fenyeget
+          veszély: sok halpopulációnak csökken az egyedszáma, túl sok vagy túl
+          kevés üledék jut el a tengerig, fokozódik a tengerparti erózió, és így
+          tovább. Mindezek a változások végül kihatnak majd azokra a látszólag
+          ingyenes szolgáltatásokra is, amelyeket a víztestek jelenleg az
+          embernek nyújtanak.
+        </p>
+        <h1>Mik a vízszennyezés okai?</h1>
+        <img src="kepek/vizszennyezes-11.jpg" alt="vizszennyezés" height="240px" class="float-start rounded me-2" >
+        <p>
+          A szennyeződés többféle módon kerülhet a vizekbe. A statisztikák
+          szerint a szennyvizek csaknem fele ipari tevékenység nyomán jön létre,
+          amikor szerves és szervetlen vegyipari termékek kerülnek a természetes
+          közegbe. Ide sorolandók például a hűtővizek, a technológiai használt
+          vizek, az üzemi szociális szennyvizek, valamint az üzem területéről
+          elvezetett csapadékvíz is.
+        </p>
+
+        <p>
+          Emellett 25%-ban a <a href="https://kockazatos.hu/hir/felsz%C3%ADni-vizeink-mez%C5%91gazdas%C3%A1gi-eredet%C5%B1-szennyezetts%C3%A9ge" target="blank" ><strong>mezőgazdaság felelős</strong></a> a vízszennyezésért, főleg a
+          különböző műtrágyák, növényvédő szerek használata miatt, de iparszerű
+          állattartás eredményeként a hígtrágya szennyezés mértéke is igen
+          magas. Mindezeken felül természetesen a háztartások is igen komoly
+          mértékű vízszennyezést okoznak és bár minimális, de szerepe van
+          mindebben a közlekedésnek, valamint a turizmusnak is.
+        </p>
+      </div>
     </main>
 
     <!--Bootstrap 5.2.3 js install-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
