@@ -67,10 +67,57 @@ nav{
     border-radius: 10px;
     box-shadow: 1px 2px 5px #011126;
 }
-/*Ids for specifying the img's sizes and paths*/
+/*Ids for specifying the popover img's sizes and paths*/
 #system002:hover::after{
     contain: "";
     background-image: url(../kepek/Tender-Inspection-Flight-24.08.2021-pre-meetings-3.jpg);
     width: 400px;
     height: 225px;
+}
+
+
+/*Image ids*/
+#muanyag{
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+}
+
+#img-nyasza-to{
+    height: 150px;
+}
+
+#img-earth{
+    height: 150px;
+}
+
+#img-vizszennyezes{
+    height: 240px;
+}
+
+#szemetsziget{
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    #muanyag{
+        height: auto;
+    }
+    #img-nyasza-to{
+        width: 100%;
+        height: auto;
+    }
+    #img-earth{
+        width: 100%;
+        height: auto;
+    }
+    #img-vizszennyezes{
+        width: 100%;
+        height: auto;
+    }
+    #szemetsziget{
+        height: auto;
+    }
 }
