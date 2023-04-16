@@ -44,3 +44,13 @@ nav{
     color: #FFFFF2;
 }
 
+.carousel-item {
+    height: 400px;
+}
+
+#carouselExampleIndicators {
+    margin: auto;
+    width: 70%;
+    padding-top: 20px;
+    
+  }
