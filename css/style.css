@@ -53,6 +53,18 @@ nav{
 }
 
 
+.carousel-item {
+    height: 400px;
+}
+
+#carouselExampleIndicators {
+    margin: auto;
+    width: 70%;
+    padding-top: 20px;
+    
+  }
+
+
 .img-popover:hover{
     position: relative;
 }
