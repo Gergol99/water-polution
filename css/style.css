@@ -38,7 +38,7 @@ footer > h5{
     text-align: center;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 520px) {
     footer{
         text-align: center;
     }
