@@ -173,4 +173,20 @@ nav{
         width: 100%;
         height: auto;
     }
+    #img-poluted-lake{
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+
+#carouselExampleIndicators {
+    width: 100%;
+    height: 50%;
+}
+
+.d-block {
+    height: 400px;
+}
+
 }
