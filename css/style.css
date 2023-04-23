@@ -8,9 +8,51 @@ body{
 }
 
 main{
+    padding-bottom: 10px;
     background-color: #C1C9D9D9;
     overflow: hidden;
 }
+
+
+footer{
+    background-color: #011126;
+    color: #FFFFF2;
+    height: 200px;
+}
+
+footer > ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer > ul > li{
+    padding: 10px 10px 50px 10px;
+    float: left;
+    list-style-type: none;
+}
+
+footer > h5{
+    padding: 30px 30px 0 30px;
+    text-align: center;
+}
+
+@media (max-width: 520px) {
+    footer{
+        text-align: center;
+    }
+
+    footer > ul{
+        display: inline-block;
+    }
+
+    footer > ul > li{
+        float: none;
+        padding: 2px;
+    }
+}
+
 
 h1{
     color: #022859;
@@ -53,32 +95,26 @@ nav{
 }
 
 
-.img-popover:hover{
-    position: relative;
+.carousel-item {
+    height: 400px;
 }
 
-/*Class for popover images*/
-.img-popover:hover::after{
-    content: "";
-    background-size: cover;
-    display: block;
-    position: absolute;
-    border: 1px solid #C1C9D9;
-    border-radius: 10px;
-    box-shadow: 1px 2px 5px #011126;
+#carouselExampleIndicators {
+    margin: auto;
+    width: 70%;
+    padding-top: 20px;
 }
-/*Ids for specifying the popover img's sizes and paths*/
-#system002:hover::after{
-    contain: "";
-    background-image: url(../kepek/Tender-Inspection-Flight-24.08.2021-pre-meetings-3.jpg);
-    width: 400px;
-    height: 225px;
-}
+
+
 .img-example{
     margin-bottom: 10px;
     width: 100%;
     float: left;
     border-radius: 5px;
+}
+
+.img-logo{
+    width: 50px;
 }
 
 
@@ -101,7 +137,6 @@ nav{
     height: 240px;
 }
 
-<<<<<<< Updated upstream
 #szemetsziget{
     object-fit: cover;
     height: 300px;
@@ -130,6 +165,12 @@ nav{
     width: 50%;
 }
 
+#img-poluted-lake{
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+}
+
 @media (max-width: 600px) {
     #muanyag{
         height: auto;
@@ -149,7 +190,7 @@ nav{
     #szemetsziget{
         height: auto;
     }
--
+
     #gif-plastic-pollution {
         width: 100%;
         height: auto;
@@ -162,5 +203,19 @@ nav{
     #img-tengerifumezo {
         width: 100%;
         height: auto;
+    }
+    #img-poluted-lake{
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    #carouselExampleIndicators {
+        width: 100%;
+        height: 50%;
+    }
+
+    .d-block {
+        height: 400px;
     }
 }
